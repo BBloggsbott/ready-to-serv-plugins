@@ -5,7 +5,7 @@
 ### `getHelloWorld`
 
 Args : None<br>
-Returns: "Hello World"<br>
+Returns: `Hello World`<br>
 Sample Config:
 ```yaml
 - name: Hello World
@@ -22,7 +22,7 @@ Args :
 |-|-|
 |`name` | `java.lang.String` |
 
-Returns: "Hello {{name}}"<br>
+Returns: `Hello {{name}}`<br>
 Sample Config:
 ```yaml
 - name: Hello Name
@@ -44,7 +44,7 @@ Args :
 |`a` | `int` |
 |`b` | `int` |
 
-Returns: "{{a+b}}"<br>
+Returns: `{{a+b}}`<br>
 Sample Config:
 ```yaml
 - name: Sum
